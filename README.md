@@ -5,7 +5,7 @@
 ## How to use in Routes:
 There are new options in CI4 routing, you can use all or some
 
-####Example:
+Example:
 ```
 $routes->get('/test/(:any)', 'Test::index/$1', ['pSubdomain'=> '[a-z]+', 'pDomain'=>'ci.loc', 'pSSL' => null, 'pSubhost' => false]);
 ```
