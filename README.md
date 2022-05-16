@@ -58,13 +58,13 @@ Change host from domain to subdomain (if the request is from a subdomain, revers
 
 Change subdomain in host:
 `Services::pece()->changeSubdomainInCI('new.sub.domain');`
->host.com => new.sub.domain.host.com
+>host.com => new.sub.domain.host.com<br>
 >abc.host.com => new.sub.domain.host.com
 
 
 Add to subdomain in host
 `Services::pece()->addSubdomainInCI('new.sub.domain');`
->host.com => new.sub.domain.host.com
+>host.com => new.sub.domain.host.com<br>
 >abc.host.com => new.sub.abc.domain.host.com
 
 
