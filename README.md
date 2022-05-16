@@ -143,3 +143,8 @@ class Services extends BaseService
 
 }
 ```
+
+- Add to app Events `(app/Config/Events.php)`:
+```
+Events::on('post_controller_constructor', '\Config\Services::pece'); //or baseController
+```
