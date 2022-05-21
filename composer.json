@@ -3,10 +3,11 @@
     "description": "Pece routing - This library modifies the host for the URL helper and URI Service",
     "type": "library",
     "require": {
-        "php": "^8.0"
+        "php": "^7.4 || ^8.0",
+        "codeigniter4/framework": "^4.1"
     },
     "require-dev": {
-        "codeigniter4/framework": "^4.1.9"
+        "codeigniter4/framework": "^4.1"
     },
     "license": "MIT",
     "authors": [
