@@ -1,0 +1,17 @@
+{
+    "name": "szajens/pece-for-codeigniter4",
+    "description": "Pece routing - This library modifies the host for the URL helper and URI Service",
+    "type": "library",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "codeigniter4/framework": "^4.1.9"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Szajens"
+        }
+    ]
+}
